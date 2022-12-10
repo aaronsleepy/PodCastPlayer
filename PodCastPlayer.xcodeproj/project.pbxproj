@@ -16,6 +16,8 @@
 		937842342944A5EC002285BA /* PodCastPlayerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937842332944A5EC002285BA /* PodCastPlayerUITestsLaunchTests.swift */; };
 		937842412944A73B002285BA /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937842402944A73B002285BA /* PlayerView.swift */; };
 		937842432944A8F6002285BA /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937842422944A8F6002285BA /* Episode.swift */; };
+		937842462944ADA1002285BA /* PlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937842452944ADA1002285BA /* PlayButton.swift */; };
+		937842482944ADF7002285BA /* PlayingStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937842472944ADF7002285BA /* PlayingStatusView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		937842332944A5EC002285BA /* PodCastPlayerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodCastPlayerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		937842402944A73B002285BA /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 		937842422944A8F6002285BA /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
+		937842452944ADA1002285BA /* PlayButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayButton.swift; sourceTree = "<group>"; };
+		937842472944ADF7002285BA /* PlayingStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingStatusView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 				937842162944A5EA002285BA /* PodCastPlayerApp.swift */,
 				937842182944A5EA002285BA /* ContentView.swift */,
 				937842402944A73B002285BA /* PlayerView.swift */,
+				937842472944ADF7002285BA /* PlayingStatusView.swift */,
+				937842452944ADA1002285BA /* PlayButton.swift */,
 				937842442944A8FD002285BA /* Model */,
 				9378421A2944A5EC002285BA /* Assets.xcassets */,
 				9378421C2944A5EC002285BA /* Preview Content */,
@@ -272,7 +278,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				937842412944A73B002285BA /* PlayerView.swift in Sources */,
+				937842462944ADA1002285BA /* PlayButton.swift in Sources */,
 				937842432944A8F6002285BA /* Episode.swift in Sources */,
+				937842482944ADF7002285BA /* PlayingStatusView.swift in Sources */,
 				937842192944A5EA002285BA /* ContentView.swift in Sources */,
 				937842172944A5EA002285BA /* PodCastPlayerApp.swift in Sources */,
 			);
