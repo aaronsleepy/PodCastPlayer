@@ -8,14 +8,15 @@
 import SwiftUI
 
 struct PlayerView: View {
-    
+    let episode: Episode
     @State private var isPlaying: Bool = false
+    
     var body: some View {
         VStack(spacing: 20) {
-            Text("episode.title")
+            Text(episode.title)
                 .font(.largeTitle)
             
-            Text("episode.showTitle")
+            Text(episode.showTitle)
                 .font(.title3)
                 .foregroundColor(.gray)
             
@@ -41,6 +42,6 @@ struct PlayerView: View {
 
 struct PlayerView_Previews: PreviewProvider {
     static var previews: some View {
-        PlayerView()
+        PlayerView(episode: Episode.list[0])
     }
 }
