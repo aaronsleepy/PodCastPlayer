@@ -104,9 +104,7 @@
 			children = (
 				937842162944A5EA002285BA /* PodCastPlayerApp.swift */,
 				937842182944A5EA002285BA /* ContentView.swift */,
-				937842402944A73B002285BA /* PlayerView.swift */,
-				937842472944ADF7002285BA /* PlayingStatusView.swift */,
-				937842452944ADA1002285BA /* PlayButton.swift */,
+				937842492944AE9E002285BA /* View */,
 				937842442944A8FD002285BA /* Model */,
 				9378421A2944A5EC002285BA /* Assets.xcassets */,
 				9378421C2944A5EC002285BA /* Preview Content */,
@@ -145,6 +143,16 @@
 				937842422944A8F6002285BA /* Episode.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		937842492944AE9E002285BA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				937842402944A73B002285BA /* PlayerView.swift */,
+				937842472944ADF7002285BA /* PlayingStatusView.swift */,
+				937842452944ADA1002285BA /* PlayButton.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
