@@ -1,6 +1,9 @@
 # PodCastPlayer
 SwiftUI Data Binding 예제
 
+![image](https://user-images.githubusercontent.com/89061309/206854477-30f95613-4277-4582-8992-090a7bb18878.png)
+
+
 
 ## Branch
 part7/swiftui-data
